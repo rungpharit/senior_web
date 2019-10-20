@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+.navigation
+		{
+			  background-color: #2c3e4cff;
+		}
+		.navigation ul 
+		{
+			  list-style-type: none;
+			  margin: 0;
+			  padding: 0;
+			  overflow: hidden;
+			  background-color: #333333;	
+		}
+		.navigation li
+		{
+			 float: left;	
+		}
+		.navigation li a
+		{
+			display: inline-block;
+			color: white;
+			padding: 30px 15px;
+			text-align: center;
+			text-decoration: none;
+			font-size: 35px;
+		}
+		.navigation li a:hover
+		{
+			background-color: #7D7979;
+		}
+		
+		div.logo img 
+		{
+			display: inline;
+			margin-top: 100px;
+			margin-left: 100px;
+			margin-bottom: 90px;
+			height: 300px;
+			weight: 150px;
+		}	
+		div.date-patient 
+		{
+			margin-top: 15px;
+			padding: 2px;
+			color: white;
+			background-color:  #f77f3bcb;
+			font-size: 35px;
+
+		}
+		div.date-patient p 
+		{
+			margin-left: 30px;
+		}
+		
+		@media only screen and (min-width: 1000px)
+		{
+			
+			.navigation li a
+				{
+				display: inline-block;
+				color: white;
+				padding: 14px 16px;
+				text-align: center;
+				text-decoration: none;
+				font-size: 20px;
+				}
+
+			.navigation li a:hover
+				{
+				background-color: #7D7979;
+				}
+
+			div.logo img 
+				{
+				display: inline;
+				margin-top: 50px;
+				margin-left: 60px;
+				margin-bottom: 30px;
+				height: 150px;
+				weight: 100px;
+				}	
+			
+			div.date-patient 
+				{
+				padding: 1px;
+				margin-top: 10px;
+				font-size: 20px;
+				}
+			
+			div.date-patient p 
+				{
+				margin-left: 20px;
+				}
+			
+		}

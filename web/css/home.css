@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+			.container_chart 
+			{
+				margin: 10px 50px;
+				float: left;			
+			}
+			.form{
+				margin: 30px 10px;
+				line-height: 1.6;
+			}
+			label{
+				font-size: 35px;
+
+			}
+			#container_intensity{
+				margin-left: 50px;
+				float: left;
+				;
+			}
+			#container_cumulative{
+				margin-left: 200px;
+				float: right;		
+			}
+			input[type = submit]{
+				padding: 5px;
+				font-size: 30px;
+				margin-left: 20px;
+			}
+			input[type = submit]:hover{
+
+				border: #BCB9B9 5px solid;
+				background: #BCB9B9;
+				color: white;
+			}
+			input[type=text]{
+				border:black 1px solid;
+
+			}
+			input[name = id]{
+				margin-left: 70px;
+			}
+			input[name = from]{
+				margin-left: 10px;
+			}
+			input[name = to ]{
+				margin-left: 63px;
+			}
+			input[placeholder] {
+				font-size: 30px;
+			}
+
+			@media only screen and (min-width: 1000px){
+			.form{
+				margin-top: 15px ;
+
+			}
+
+			label{
+				font-size: 20px;	
+			}	
+			input[type = submit]{
+				padding: 2px;
+				font-size: 15px;
+				margin-left: 10px;
+			}
+			input[name = id]{
+				margin-left: 45px;
+			}
+			input[name = from]{
+				margin-left: 10px;
+			}
+			input[name = to ]{
+				margin-left: 40px;
+			}
+			input[placeholder] {
+				font-size: 15px;
+			}
